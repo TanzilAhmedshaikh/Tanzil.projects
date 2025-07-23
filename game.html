@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone , Paper , Scissore</title>
+    <link rel = "stylesheet" href="game.css">
+
+</head>
+<body>
+
+    <!-- Play section start -->
+
+    <h1>Stone , Paper , Scissors</h1>
+
+    <div class = "choices">
+<div class = "choice" id = "rock">
+    <img src ="rock" >
+</div>
+
+<div class = "choice" id = "paper">
+    <img src ="paper" >
+</div>
+
+<div class = "choice" id = "scissors">
+    <img src ="scissore" >
+</div>
+</div>
+          <!-- Play section end -->
+
+
+
+              <!-- Score section start -->
+
+<div class = "scores">
+
+    <div class ="score" >
+   <font size = "6"><p id = "userscore">0</p></font>
+    <font size = "6"> <b><p>you</p></b></font>
+    </div>
+
+<div class ="score" >
+  <font size = "6"><p id = "compscore">0</p></font>
+    <font size = "6"><b><p>comp</p></b></font>
+</div>
+
+</div>   
+                   <!-- Score section end -->
+
+                   <!-- player update start -->
+      <br>   
+                 
+
+<div class = "container">
+    <p id = "update"> Start the game</p>
+    </div>
+
+
+  
+                   <!-- player update end -->
+
+    <script src = "game.js"></script>
+</body>
+</html>
+
+
+
+   <!-- // if your score will be 10 then the below code will run......
+    if (userscore === 5) {
+        alert("Congratulation... You win this game!");
+        userscore = 0; // Then reset score
+        compscore = 0;
+        userpoints.innerText = userscore;
+        comppoints.innerText = compscore;
+        update.innerText = "Start the game";
+        update.style.backgroundColor = "rgb(10, 10, 59)";
+    
+    } else if (compscore === 5) {
+        alert("You lose this game ! Try again...");
+        userscore = 0; // Then reset score
+        compscore = 0;
+        userpoints.innerText = userscore;
+        comppoints.innerText = compscore;
+        update.innerText = "Start the game";
+        update.style.backgroundColor = "rgb(10, 10, 59)";
+    }
+        -->
